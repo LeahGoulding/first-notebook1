@@ -1,0 +1,164 @@
+---
+title: "My first notebook"
+author: "Leah Goulding"
+date: "11th December"
+bibliography: references.bib
+link-citations: yes
+output:
+  html_document:
+    toc: true
+    toc_depth: 4
+    toc_float: true
+---
+
+<!-- This is a comment, hash symbol used for headings in RMarkdown -->
+
+<!-- Headings -->
+
+# Heading 1 
+## Heading 2
+### Heading 3
+#### Heading 4
+
+# Inline text formatting 
+To make text bold use **double asteriks** or __double underscore__ on either
+side of the word or phrase we want in bold. 
+
+To make text italic use *asteriks* or _underscore_ on either side of the worde or phrase we want in italics. 
+
+To make text superscript use ^caret^
+To make text subscript use ~tilde~
+
+To mark text as inline code use `backticks` located by number one
+
+To make text strikethrough flank with ~~double tilde~~
+
+\
+
+
+# Line breaks 
+\
+use backslash and write on a fresh new line 
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+
+
+# Links
+\
+
+
+Link to shared document [https://ac812.github.io/reproducibility-training/rmarkdown.html#Challenge]
+
+Link to heading [here](#heading1)
+
+
+\
+
+# Footnotes
+\
+
+To indicate a footnote[^1] and second footnote[^2] use ^ in square bracket with a number. Then set up the corresponding footnote. 
+
+[^1]: this is the first footnote
+[^2]: this is the second footnote 
+
+\
+
+# Lists
+
+Ordered lists (For sublists use 4 spaces to indent item):
+
+1. Item 1
+2. Item 2
+3. Item 3
+    a. Item 3a
+        i. Item 3ai
+    b. Item 3b
+
+Unordered lists (*, +, -), symbol and then a space:
+
+* Item 1
+* Item 2
+    * Item 2.1
+* Item 3
+\
+
+Tasks list:
+
+- [ ] an unchecked task list item
+- [x] checked item
+
+This will appear correctly when uploaded on GitHub and rendered, will not see it if simply use the knit function in R. 
+\
+\
+
+# Inserting Figures
+\
+![Figure caption](img/imageR.png)
+
+\
+\
+\
+\
+
+| Column 1    | Column 2    |
+| ----------- | ----------- |
+| Item 1,1    | Item 1,2    |
+| Item 2,1    | Item 2,2    |
+
+\
+\
+\
+\
+
+# Blocks
+use '''' on the line before and after the code 
+\
+```
+print("Hello world")
+x <- 1+2
+print(x)
+```
+\
+\
+\
+
+# Table of Contents
+
+```
+output:
+  html_document:
+    toc: true
+
+```
+
+\
+
+# Adding references 
+
+citation to my paper @cardona2014
+\
+\
+
+
+
+
+# References
+
